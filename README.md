@@ -5,7 +5,7 @@ Shell utilities for everyday tasks
 
 ### .bash_profile
 
-Custom shell profile that shows current working directory and git branch on the left. Looks following:
+Custom shell profile that shows current working directory and git branch on the right. Command is entered after a newline, so there is always plenty space for text there. Looks following:
 
 ![Custom shell](images/shell_custom.png)
 
