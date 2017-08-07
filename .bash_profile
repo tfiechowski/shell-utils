@@ -3,7 +3,7 @@ parse_git_branch() {
 }
 
 function prompt_left() {
-  echo -e "\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;10m\]\w\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
+  echo -e "\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;10m\]`basename \"$VIRTUAL_ENV\"` \w\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
 }
 
 function prompt_right() {
