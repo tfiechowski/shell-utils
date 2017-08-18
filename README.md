@@ -3,6 +3,15 @@
 Shell utilities for everyday tasks
 
 
+## Installation
+
+Run `./install`, it will guide you through installation of all features.
+
+ It is a script interpreted by Python 2.7 (by hashbang: `#!/usr/bin/env python`). If your Python path is different, just run `python install`.
+
+
+## Features
+
 ### .bash_profile
 
 Custom shell profile that shows current working directory and git branch on the right. Command is entered after a newline, so there is always plenty space for text there. Looks following:
@@ -10,11 +19,10 @@ Custom shell profile that shows current working directory and git branch on the 
 ![Custom shell](images/shell_custom.png)
 
 
-## Adding to path
-
-To add this repository to PATH, run the following command. You need to add pwd to the export.
+### Bin utilities
 
 ```
-echo pwd
-export PATH="<pwd>:$PATH"
+DOCKER 
+    docker_rm_container         removes all docker containers
+    docker_rm_images            removes all docker images
 ```
